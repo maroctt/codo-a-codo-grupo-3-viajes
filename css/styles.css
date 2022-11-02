@@ -1,0 +1,78 @@
+/* Fuente Poppins - Variantes (regular: 400; medium:600; semibold:600; bold:700) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@import url(partials/navbar.css);
+@import url(partials/hero.css);
+@import url(partials/paises.css);
+@import url(partials/sobreNos.css);
+@import url(partials/lugaresDest.css);
+@import url(partials/newsletter.css);
+@import url(partials/destinosPop.css);
+
+@import url(partials/registro.css);
+@import url(partials/pais.css);
+@import url(partials/footer.css);
+
+
+/* Variables para los colores
+Ejemplo para usar:
+h1{
+    color: var(--primario-500)
+}
+*/
+:root{
+    --primario-500:#807bfb;
+    --primario-100:#9b97fb;
+    --primario-900:#6561c7;
+    --secundario-500 : #FF5678;
+    --secundario-100: #ff8aa1;
+    --secundario-900: #e54d6c;
+    --texto-900:#3e3c4d;
+    --texto-500:#535167;
+    --texto-100:#686680;
+    --gris-900:#2C2F33;
+    --gris-500:#393C40;
+    --error:#B71C1C;
+    --success:#4CAF50;
+    --white: #F6F7F9;
+    font-size: 16px;
+
+    --facebook:#3b5999;
+    --instagram:#e4405f;
+    --twitter:#55acee;
+    --pinterest:#007785;  
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+}
+
+
+/*MEDIA QUERIES*/
+@media  only screen and (max-width: 1160px){
+    :root{
+        font-size: 14px;
+    }
+    .container{
+        padding: 2em;
+    }
+    
+}
+
+@media  only screen and (max-width: 811px){
+   
+    :root{
+        font-size: 12px;
+    }
+   
+}
