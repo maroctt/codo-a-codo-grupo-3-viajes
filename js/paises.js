@@ -79,7 +79,7 @@ async function getCountries() {
 
   countries.forEach(function (country) {
     if (listaPaises.indexOf(country.translations[0].es) >= 0) {
-      console.log(country.translations[0].es);
+      
 
       let content = `<article class="country-card-container">
                 <header class="country-card-header">
